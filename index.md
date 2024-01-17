@@ -8,32 +8,45 @@ layout: default
 
 **Python Sample Projects** 
 
-[Project 1 Example Link](./project1.html).
-> Project Description in italic? or indented?
+> [Project 1 Example Link](./project1.html)
+| _Project Description_
 
-[Project 2 Example Link](./project2.html).
+> [Project 2 Example Link](./project2.html)
+| _Project Description_
 
-[Project 3 Example Link](./project3.html).
+> [Project 3 Example Link](./project3.html)
+| _Project Description_
 
-[Project 4 Example Link](./project4.html).
+> [Project 4 Example Link](./project4.html)
+| _Project Description_
 
-[Project 5 Example Link](./project5.html).
+> [Project 5 Example Link](./project5.html)
+| _Project Description_
 
 **R Sample Projects**
-[Project 6 Example Link](./project6.html).
 
-[Project 7 Example Link](./project7.html).
+> [Project 6 Example Link](./project6.html)
+| _Project Description_
 
-[Project 8 Example Link](./project8.html).
+> [Project 7 Example Link](./project7.html)
+| _Project Description_
 
-[Project 9 Example Link](./project9.html).
+> [Project 8 Example Link](./project8.html)
+| _Project Description_
+
+> [Project 9 Example Link](./project9.html)
+| _Project Description_
 
 **Data Visualization**
-[Project 10 Example Link](./project10.html).
 
-[Project 11 Example Link](./project11.html).
+> [Project 10 Example Link](./project10.html)
+| _Project Description_
 
-[Project 12 Example Link](./project11.html).
+> [Project 11 Example Link](./project11.html)
+| _Project Description_
+
+> [Project 12 Example Link](./project12.html)
+| _Project Description_
 
 * * *
 ## Current Projects
