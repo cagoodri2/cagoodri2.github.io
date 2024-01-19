@@ -99,6 +99,7 @@ The model with the lowest AIC/BIC and best overall performance was the ARIMA(1,0
 than the other time series models. The complexity of the underlying time series, the disagreement within the KPSS/Dickey-Fuller tests, the over differencing indicated etc. all worked to make this the hardest time series to capture. Analyzing medical time series datasets proved a unique challenge. Leveraging time
 series analysis would be crucial to better understand hospital resources, staffing demand, patient population and more. 
 
-These datasets are rich in insight; indeed, many more analyses could be completed with the dataset used for this report. Future analysis could examine the other time series, more deeply explore the relationship between features and integrate the environmental factors. 
+These datasets are rich in insight; indeed, many more analyses could be completed with the dataset used for this report. Future analysis could examine the other time series, more deeply explore the relationship between features and integrate the environmental factors.
 
-[back](./)
+LINK TO SELECTED R CODE
+[Back](./tsa_cardiac.html)
