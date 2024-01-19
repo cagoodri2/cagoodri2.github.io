@@ -59,18 +59,15 @@ The relationships between the time series were also thoroughly explored through 
 (IV). Heart failure and shock appeared to have a relationship with each other which could be used for
 future prediction.
 
+1)  Sahani, A. (2022, January 21). Hospital Admissions Data. Kaggle.
+  https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data 
+
 _____________________________________________________________________________________________________
 
 __Additional Information__
+
 link needed - Technical Report
-link needed - R Code
 
-
-
-
-
-
-
-
+link needed - Sample R Code
 
 [back](./)
