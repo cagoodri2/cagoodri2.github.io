@@ -66,7 +66,7 @@ ________________________________________________________________________________
 
 __Additional Information__
 
-link needed - Technical Report
+[Sample of Technical Report](./tsa_ctech.html)
 
 link needed - Sample R Code
 
