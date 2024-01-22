@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-## About Me
-
-* * *
 ## Portfolio Projects
 
 **Python Sample Projects** 
 
 > [Project 1 Example Link](./project1.html)
-| Project Description
+Project Description
 
 > [Project 2 Example Link](./project2.html)
 | Project Description
