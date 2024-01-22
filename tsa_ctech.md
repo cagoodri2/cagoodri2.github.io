@@ -71,23 +71,6 @@ captures the movement occurring with the time series (figure 5).
 ![image](https://github.com/cagoodri2/cagoodri2.github.io/assets/156851134/4833811c-365b-4328-9b5b-d43cd39e08d9)
 Figure 5.  Forecast of ARIMA (1,0,1) with drift on Heart Failure
 
-_Shock_
-
-![image](https://github.com/cagoodri2/cagoodri2.github.io/assets/156851134/86230ae7-ab38-43c9-8b2d-4923323075b5)
-Figure 6. Decomposition of Shock TS
-
-The shock time series appeared to have no particular trend, some seasonality with a range of -0.6 to 0.3 (fig.6). There were some notable highs evident in the time series beyond the general
-movement of the series. The ACF had significant autocorrelations with decay, and the PACF had significant autocorrelations without decay – both indicated an ARIMA process (fig.7). The ACF and PACF did have slight seasonal scalloping. The EACF of shock showed some seasonal x
-columns and agreed with the ACF/PACF on a potential ARIMA process. The KPSS test failed to reject the null hypothesis with a p-value of 0.1. The Augmented Dickey-Fuller test rejected the null hypothesis with a p-value of 0.01. The series was stationary.
-
-![image](https://github.com/cagoodri2/cagoodri2.github.io/assets/156851134/c172f618-1b96-4b00-b629-436a822a3b90)
-Figure 7. ACF of shock (left), PACF of shock (right)
-
-An ARIMA 1,0,1 with mean was fitted, all coefficients tested significant at the 0.05 level. The AIC of the model was 2038.61, the BIC was 2056.9 and the Ljung Box test failed to reject with a p-value of
-0.98 confirming the residuals were white noise. The ACF of the residuals showed little to no autocorrelation. The Auto.arima selected a ARIMA (1,0,1)(1,0,0) with non-zero mean, the AIC was 2039.75 and the BIC was 2062.59. The seasonal term was not significant per the coefficient test, but the
-AR(1), MA(1) and intercept did test significant. The Auto.arima model also failed to reject the Ljung Box test with a p-value of 0.98. The back test of the ARIMA (1,0,1) had an RMSE of 1.10 and a MAE of 0.84. Since the seasonal coefficient did not test as significant and the AIC/BIC was lower, the
-ARIMA (1,0,1) with mean was selected for forecasting. The forecasted model showed a slight upward movement and did capture the general range of the time series (fig.8).
-
 # Conclusions & Future Work #
 
 The top model for each of the time series is detailed in table 1 below: 
