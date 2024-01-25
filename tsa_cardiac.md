@@ -68,6 +68,6 @@ __Additional Information__
 
 [Sample of Technical Report](./tsa_ctech.html)
 
-link needed - Sample R Code
+[Sample R Code](./tsa_rcode.html)
 
-[back](./)
+[Return to Full Project List](./)
