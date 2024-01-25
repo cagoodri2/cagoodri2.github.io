@@ -28,14 +28,14 @@ Preprocessing was an important step in the solution process. NA's represented ap
 
 * Random Forest & Random Forest with GridSearchCV 
 
-  Ensemble learning method which constructs multiple decision trees. Each tree is trained on a subset of randomly selected features with the final classification is determined by a majority vote among the predictions. GridSearchCV functions as above.
+  Ensemble learning method which constructs multiple decision trees. Each tree is trained on a subset of randomly selected features and the final classification is determined by a majority vote. GridSearchCV functions as above.
 
 __Conclusions & Future Work__ 
 
 While all classifiers performed well at identifying Chondrites (the most prevalent class) and Iron (the second most prevalant class) with >90% accuracy, Random Forest with GridSearch CV had the best overall performance for the less prevelant classes. Random Forest with GridSearchCV had an training accuracy of 86% and a testing accuracy of 83% (3% difference). This classifier had an F1 sore of 0.83. Despite the limited features and unbalanced data, machine learning was sucessfull in identifying the four major types of meteorite classifications. With additional features, models could reasonabley identify meteorite subtypes. 
 
-Link to technical report sample
+[Sample of Technical Report](./meteor_tech.html)
 
-Link to python code
+[Sample of Python Code](./meteor_python.html)
 
 [All Projects](./)
