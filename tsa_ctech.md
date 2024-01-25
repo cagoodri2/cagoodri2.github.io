@@ -89,4 +89,4 @@ These datasets are rich in insight; indeed, many more analyses could be complete
 
 [Executive Summary](./tsa_cardiac.html)
 
-[Back to Full Project List](./)
+[All Projects](./)
