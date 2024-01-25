@@ -84,5 +84,9 @@ series analysis would be crucial to better understand hospital resources, staffi
 
 These datasets are rich in insight; indeed, many more analyses could be completed with the dataset used for this report. Future analysis could examine the other time series, more deeply explore the relationship between features and integrate the environmental factors.
 
-LINK TO SELECTED R CODE
-[Back](./tsa_cardiac.html)
+
+[Sample R Code](./tsa_rcode.html)
+
+[Executive Summary](./tsa_cardiac.html)
+
+[Back to Full Project List](./)
