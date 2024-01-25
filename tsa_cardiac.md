@@ -70,4 +70,4 @@ __Additional Information__
 
 [Sample R Code](./tsa_rcode.html)
 
-[Return to Full Project List](./)
+[All Projects](./)
