@@ -18,12 +18,11 @@ history, and lab parameters. 14,825 admissions were documented over the period o
 
 __Problem Summary__
 
-Target time series for this analysis was narrowed to three common measures of illness severity: heart
-failure, shock, and mean length of stay. 
+Four kinds of time series models were applied depending on the time series to predict future values.
 
 __Solution Summary__
 
-Four kinds of time series models were applied depending on the time series to predict future values.
+Analysis was narrowed to three common measures of illness severity: heart failure, shock, and mean length of stay.
 
 * ARIMA model – Autoregressive Integrated Moving Average Model
 
