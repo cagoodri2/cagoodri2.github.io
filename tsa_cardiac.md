@@ -45,6 +45,8 @@ Four kinds of time series models were applied depending on the time series to pr
 Models were iteratively tested, and appropriate statistical methods were evaluated to determine whether
 or not a model could be accurately used for forecasting.
 
+__Conclusions__
+
 Heart Failure – The best model was a Lagged Auto.Arima (III) with Shock. The relationship
 between shock and heart failure improved the model’s ability to forecast heart failure.
 
