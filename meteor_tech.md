@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Project Example 8 ###
+## Meteor Technical Report Sample ###
 
 Project Example Page - To be completed.
 
