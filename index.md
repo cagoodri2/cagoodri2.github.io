@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Highlighted Portfolio Projects ## 
+## Solo Portfolio Projects ## 
 
 __[Time Series Analysis - Cardiac Hospital Admissions](./tsa_cardiac.html)__
 
@@ -17,13 +17,19 @@ for different astronomical objects.
 
 _Language & Libraries:_ Python & Needed
 
-## Additional Work ##
-
 __[Machine Learning - Meteor Type Prediction](./ml_meteor.html)__
 
 > KNN, KNN with GridSearchCV, Adaboost, Adaboost with GridSearchCV, Random Forest, Random Forest with GridSearch CV were used to classify target variable ('meteor types') in unbalanced dataset with limited features. Data was sourced from NASA.
 
 _Language & Packages:_ Python & Needed 
+
+## Additional Collaborative Work ##
+
+__[Advanced Analysis - Region & Global Health Metrics ](./da_who.html)__
+
+> I need to write this still.
+
+_Language & Packages:_ R & Needed 
 
 __[Machine Learning - Pima Indians Diabetes Prediction](./ml_diabetes.html)__
 
