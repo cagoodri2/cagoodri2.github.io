@@ -6,13 +6,15 @@ layout: default
 
 _Executive Summary_
 
+This executive summary highlights my personal contribution to a team project. 
+
 __Overview__
 
 As reported by the World Health Organization (WHO), diabetes has become a global epidemic, with approximately 422 million adults living with the condition in 2014. It is predicted to be the seventh leading cause of death by 2030 (1).  Gaussian Naive Bayes was applied to diagnostic measurements to predict a diabetes diagnosis. The dataset was sourced from the National Institute of Diabetes and Digestive and Kidney Diseases and accessed via Kaggle.com. It contained 768 observations from females at least 21 years old of Pima Indian heritage. Predictor variables included pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age. The target variable was outcome.
 
 __Problem Summary__
 
-Gaussian Naive Bayes was applied to diagnostic measurements to predict a diabetes diagnosis.
+Gaussian Naive Bayes was applied to diagnostic measurements to predict a diabetes diagnosis. 
 
 __Solution Summary__
 
