@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Project Example 7 ###
+## LSST Full Technical Report ###
 
 Project Example Page - To be completed.
 
