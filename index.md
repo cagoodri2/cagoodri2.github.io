@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Projects ##
+## Data Science Portfolio ##
 
 This github is updated regularly with additional work - check back to see what else I have been up to! 
 
