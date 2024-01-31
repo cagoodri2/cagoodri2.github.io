@@ -3,7 +3,7 @@
 
 M.S. Data Science - DePaul University
 
-Linkedin: [cagoodri2](./https://www.linkedin.com/in/cagoodri2/)
+Linkedin: https://www.linkedin.com/in/cagoodri2
 
 ## About ##
 Data science portfolio site with executive summaries, sample code & samples from technical reports. Particular interests include neural networks, time series analysis, forecasting & machine learning.
