@@ -11,46 +11,39 @@ The project title connects to a executive summary of the work completed, as well
 
 __[Time Series Analysis - Cardiac Hospital Admissions](./content/tsa_cardiac.html)__
 
-> ARIMA, Auto.Arima, Lagged Auto.Arima & Vector Auto Regression were utilized to explore three common measures of illness severity - heart failure, shock and mean length of stay - in a time series dataset of daily hospital admissions at Hero DMC Heart institute.
+> ARIMA, Auto.Arima, Lagged Auto.Arima & Vector Auto Regression were utilized to explore heart failure, shock and mean length of stay in a time series dataset of daily hospital admissions at Hero DMC Heart institute.
 
-_Language: R_
+Language: R  
 
-_Libraries: lubridate, ggplot2, forecast, tseries, TSA, tidyr, dplyr_
+Libraries: lubridate, ggplot2, forecast, tseries, TSA, tidyr, dplyr
 
 __[Reccurrent Neural Networks - LSST Classification](./content/rnn_lsst.html)__
 
-> Project utilized RNNs to predict target variables from the Large Synoptic Survey Telescope (LSST) dataset. The LSST dataset is a time series dataset containing light curve measurements for different astronomical objects.
+> A hybrid Recurrent Neural Network (RNN) was iteratively developed and trained to predict target variables from the Large Synoptic Survey Telescope (LSST) dataset. The LSST dataset is a time series dataset containing light curve measurements for different astronomical objects.
 
-_Language: Python_
+Language: Python
 
-_Packages: Needed_
+Packages: numpy, pandas, tensorflow, keras_tuner, imblearn, matplotlib, seaborn
 
 __[Machine Learning - Meteor Type Prediction](./content/ml_meteor.html)__
 
 > KNN, KNN with GridSearchCV, Adaboost, Adaboost with GridSearchCV, Random Forest, Random Forest with GridSearch CV were used to classify target variable ('meteor types') in unbalanced dataset with limited features. Data was sourced from NASA.
 
-_Language: Python_ 
+Language: Python 
 
-_Packages: Needed_ 
+Packages: numpy, pandas, sklearn, matplotlib, seaborn
 
-## Collaborative Work ##
-
-__[Advanced Analysis - Region & Global Health Metrics ](./content/adva_who.html)__
-
-> I need to write this still.
-
-_Language: R_
-
-_Libraries: Needed_ 
-
-__[Machine Learning - Pima Indians Diabetes Prediction](./content/ml_diabetes.html)__
-
->Guassian Naive Bayes were applied using 10-fold cross validation with tuning of variable smoothing to predict diabetes diagnosis. Three versions of the dataset were utilized to improve model accuracy: base dataset, normalized dataset, and a reduced features dataset. Exploratory analysis includes a brief comparison of common features between the Pima Indian population & the national population.
-
-_Language: Python_
-
-_Packages: Needed_
+***
 
 ## Current Projects ##
-Currently working on...
+
+Current projects do not have a summary page or sample code currently - either due to data use agreements, submission processes or stage of project. These projects are included to highlight my current interests.
+
+__Machine Learning - Predictors of Stress Among Fox Insight Participants__
+
+As a continuation of my work as a DREAM Data Science Graduate Apprentice, I am in the manuscript submission phase for this project. Logistic Regression, Decision Tress & Adaboost models were applied and optimized in python on real world longitudinal health data to examine the predictors of stress among participants with Parkinson's Diease (PD) vs. those without. 
+
+__NLP - Sentiment Analysis & Public Perceptions of Vaccines__
+
+Using sentiment analysis, I hope to gain an understanding of how public perceptions of COVID-19 vaccines shifted (or didn't) over the course of the pandemic. This exploration is in the early phases. I am particularly interested in public understand of mRNA's function within the vaccine. 
 
