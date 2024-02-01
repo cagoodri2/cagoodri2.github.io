@@ -7,7 +7,7 @@ This github is updated regularly with additional work - check back to see what e
 
 The project title connects to a executive summary of the work completed, as well as sample code for the project. The programming language used & highlighted libraries or packages are italicized below. 
 
-### Independent Work ###
+### Completed Projects ###
 
 __[Time Series Analysis - Cardiac Hospital Admissions](./content/tsa_cardiac.html)__
 
