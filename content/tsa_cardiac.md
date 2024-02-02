@@ -39,6 +39,6 @@ The relationships between the time series were also thoroughly explored through 
 
 ***
 
-[Sample of Code](/notebooks/sample_tsa.html)
+[View Sample Code](/notebooks/sample_tsa.html)
 
 [All Projects](/index.html)
