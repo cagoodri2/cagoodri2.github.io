@@ -6,7 +6,7 @@ layout: default
 
 __Overview__
 
-Medical time series present a unique opportunity for time series analysis. Exploring admissions data can provide insight into the demands placed on healthcare teams, hospital resources and performance. The analysis that follows utilized data was from Kaggle.com (1) which contained daily hospital admissions from Hero DMC Heart institute located in the state of Punjab, India. The dataset features included details regarding the date of admissions, date of discharge, demographics, type of admission, patient medical history, and lab parameters. 14,825 admissions were documented over the period of April 2017 to March 2019. .
+Medical time series present a unique opportunity for time series analysis. Exploring admissions data can provide insight into the demands placed on healthcare teams, hospital resources and performance. The analysis that follows utilized data was from Kaggle.com (1) which contained daily hospital admissions from Hero DMC Heart institute located in the state of Punjab, India. The dataset features included details regarding the date of admissions, date of discharge, demographics, type of admission, patient medical history, and lab parameters. 14,825 admissions were documented over the period of April 2017 to March 2019.
 
 __Problem Summary__
 
