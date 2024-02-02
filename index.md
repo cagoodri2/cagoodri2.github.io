@@ -11,14 +11,6 @@ The project title connects to a executive summary of the work completed, as well
 
 ### Completed Projects ###
 
->__[Time Series Analysis - Cardiac Hospital Admissions](./content/tsa_cardiac.html)__
-
-  ARIMA, Auto.Arima, Lagged Auto.Arima & Vector Auto Regression were utilized to explore heart failure, shock and mean length of stay in a time series dataset of daily hospital admissions at Hero DMC Heart institute.
-
-  Language: R  
-
-  Libraries: lubridate, ggplot2, forecast, tseries, TSA, tidyr, dplyr
-
 >__[Reccurrent Neural Networks - LSST Classification](./content/rnn_lsst.html)__
 
   A hybrid Recurrent Neural Network (RNN) was iteratively developed and trained to predict target variables from the Large Synoptic Survey Telescope (LSST) dataset. The LSST dataset is a time series dataset containing   light curve measurements for different astronomical objects.
@@ -34,6 +26,14 @@ The project title connects to a executive summary of the work completed, as well
   Language: Python 
 
   Packages: numpy, pandas, sklearn, matplotlib, seaborn
+
+>__[Time Series Analysis - Cardiac Hospital Admissions](./content/tsa_cardiac.html)__
+
+  ARIMA, Auto.Arima, Lagged Auto.Arima & Vector Auto Regression were utilized to explore heart failure, shock and mean length of stay in a time series dataset of daily hospital admissions at Hero DMC Heart institute.
+
+  Language: R  
+
+  Libraries: lubridate, ggplot2, forecast, tseries, TSA, tidyr, dplyr
 
 ***
 
