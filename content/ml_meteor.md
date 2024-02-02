@@ -12,30 +12,22 @@ Unbalanced datasets with limited features present a distinct challenge for Machi
 
 __Problem Summary__
 
-Utilize Sklearn's KNN, KNN with GridSearchCV, Adaboost, Adaboost with GridSearchCV, Random Forest, Random Forest with GridSearch CV to classify target variable ('types') in unbalanced dataset with limited features.
+Use machine learning to classify target variable ('types') in unbalanced dataset with limited features.
 
 __Solution Summary__
 
 Preprocessing was an important step in the solution process. NA's represented approximately 6% of the original dataset and were removed.The target variable meteor classification was simplified from 422 types to four main types - chondrites, achondrites, iron meteorites, stony iron meteorites. Fall was transformed into a dummy variable. The data was split into a 60/40 stratified test/train set. The stratification was used to handle the imbalanced class issues.  
 
-* KNN with standard parameters & KNN with GridSearchCV
+* KNN with standard parameters & KNN with GridSearchCV- Supervised machine learning algorithm that determines the K nearest neighbors of an instance to classify that instance. GridSearchCV uses a parameter grid to iteratively test and determine the parameter values which   yeild the highest accuracy (default). 
 
-  Supervised machine learning algorithm that determines the K nearest neighbors of an instance to classify that instance. GridSearchCV uses a parameter grid to iteratively test and determine the parameter values which   yeild the highest accuracy (default). 
+* Adaboost & Adaboost with GridSearchCV- Ensemble learning method that combines the predictions of multiple weaker learners using weights, aiming to create a stronger overall predictor. GridSearchCV functions as above. 
 
-* Adaboost & Adaboost with GridSearchCV
-
-  Ensemble learning method that combines the predictions of multiple weaker learners using weights, aiming to create a stronger overall predictor. GridSearchCV functions as above. 
-
-* Random Forest & Random Forest with GridSearchCV 
-
-  Ensemble learning method which constructs multiple decision trees. Each tree is trained on a subset of randomly selected features and the final classification is determined by a majority vote. GridSearchCV functions as above.
+* Random Forest & Random Forest with GridSearchCV - Ensemble learning method which constructs multiple decision trees. Each tree is trained on a subset of randomly selected features and the final classification is determined by a majority vote. GridSearchCV functions as above.
 
 __Conclusions & Future Work__ 
 
 While all classifiers performed well at identifying Chondrites (the most prevalent class) and Iron (the second most prevalant class) with >90% accuracy, Random Forest with GridSearch CV had the best overall performance for the less prevelant classes. Random Forest with GridSearchCV had an training accuracy of 86% and a testing accuracy of 83% (3% difference). This classifier had an F1 sore of 0.83. Despite the limited features and unbalanced data, machine learning was sucessfull in identifying the four major types of meteorite classifications. With additional features, models could reasonabley identify meteorite subtypes. 
 
-[Sample of Technical Report](./meteor_tech.html)
+[View Sample Code in Google Colab](https://colab.research.google.com/drive/1DkQqs70l1cFm5f36WzJPPHQCLRoloL40?usp=sharing)
 
-[Sample of Python Code](./meteor_python.html)
-
-[All Projects](./)
+[All Projects](/index.html)
