@@ -31,6 +31,6 @@ __Conclusions & Future Work__
 Combining hybrid networks with Keras Tuner ultimately did create a more robust, generalizable network. The best network had the following structure: NEDED. A hybrid network was better able to capture short term patterns
 as well as long term trends present within the time series data. Future work could explore NEEDED
 
-[Sample Code](./notebooks/Sample_RNN.ipynb)
+[Sample Code](/notebooks/sample_rnn.ipynb)
 
-[All Projects](./index.html)
+[All Projects](/index.html)
