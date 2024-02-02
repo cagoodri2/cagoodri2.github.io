@@ -62,25 +62,26 @@
     autoplot(forecast(fit1_heart, h=24)) #appears to accurately represent the behavior
 
 #CROSS CORRELATION & lag2.plot
+
     cor(mean_stay$x[1:725], heart_fail$x[1:725])
     cor(mean_stay$x[1:725], shock$x[1:725])
     cor(heart_fail$x[1:725], shock$x[1:725]) #most highly correlated from the three
-
+    
     lag2.plot(stay_ts, heart_ts, 5) 
     lag2.plot(stay_ts, shock_ts, 5)
-    lag2.plot(shock_ts, heart_ts, 5) 
-
+    lag2.plot(shock_ts, heart_ts, 5)
+    
     linear <- lm(heart_ts ~ shock_ts, data = admit)
     summary(linear)
+    
     skewness(linear$residuals) #moderate positive skew
     kurtosis(linear$residuals) #heavy tails
     autoplot(linear)
-
-#lag zero
-
-    ccf(heart_fail$x[1:725], shock$x[1:725])
+    
+    ccf(heart_fail$x[1:725], shock$x[1:725]) #lag zero
 
 #SAMPLE LAGGED AUTO.ARIMA
+
     detach("package:dplyr", unload=TRUE)
     lag_fit= auto.arima(lag(heart_ts,0), xreg = shock_ts)
     summary(lag_fit)
@@ -88,11 +89,11 @@
     acf(lag_fit$residuals)
     Box.test(lag_fit$residuals, type = "Ljung-Box")
     autoplot(lag_fit)
+    
     summary(fit1_heart)
     autoplot(fit1_heart)
-
+    
     back7 = backtest(lag_fit, orig = 555, rt = heart_ts, h = 10)
-
     autoplot(forecast(fit1_heart, h=24))
     autoplot(forecast(lag_fit, xreg = shock_ts))
 
@@ -100,16 +101,13 @@
 
     autoplot(decompose(heart_ts))
     autoplot(decompose(shock_ts))
-
-    VARselect((cbind(heart_ts, shock_ts)), lag.max = 8, type = 'const')
-
-##investigate lag 4, 7
-
+    VARselect((cbind(heart_ts, shock_ts)), lag.max = 8, type = 'const')#investigate lag 4, 7
+    
     fit1_var = VAR((cbind(heart_ts, shock_ts)), p = 4, type ='const')
     fit2_var = VAR((cbind(heart_ts, shock_ts)), p = 7, type = 'const')
-
+    
     serial.test(fit1_var, lags.pt = 10, type = "PT.asymptotic")
     serial.test(fit2_var, lags.pt = 10, type = "PT.asymptotic")#better
-
+    
     coeftest(fit1_var)
     coeftest(fit2_var)
