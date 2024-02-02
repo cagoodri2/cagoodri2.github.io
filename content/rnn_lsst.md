@@ -22,7 +22,7 @@ Simple RNN, LSTM, GRU & Conv1D Keras TensorFlow networks were iteratively tested
 
 * _GRU (Gated Recurrent Unit)_- Balanced between Simple RNN & LSTM, has an update gate to inform the network. 
 
-*_Conv1D (One Dimensional Convoluted Layer)_ - Capture local patterns in the input sequence, allowing the model to learn hierarchical representations of the data.
+* _Conv1D (One Dimensional Convoluted Layer)_ - Capture local patterns in the input sequence, allowing the model to learn hierarchical representations of the data.
 
 Normalization was applied within the network. If a network appeared to be underfitting (high loss, low accuracy) additional RNN layers were introduced. If a network appeared to be overfitting (low loss/high
 accuracy for training set, high loss/low accuracy for testing set) dropout layers in varying positions were tested, as well as BatchNormalization and Maxpooling. These metrics were also used to determine which network would go through hyperparameter tuning using Keras.tuner. 
