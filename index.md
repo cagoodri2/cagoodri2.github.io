@@ -5,7 +5,7 @@ layout: default
 
 This github is updated regularly with additional work - check back to see what else I have been up to! 
 
-The project title connects to a executive summary of the work completed, as well as sample code for the project. The programming language used & highlighted libraries or packages are italicized below. 
+The project title connects to a executive summary of the work completed, as well as sample code for the project. The programming language used & highlighted libraries or packages are indicated below the project description. 
 
 ***
 
